@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project Name — a clean starting point</title>
+<meta name="description" content="A professional, framework-free HTML/CSS/JS starter template for GitHub projects." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#" class="brand">project<span>.name</span></a>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#quickstart">Quick start</a>
+      <a href="#structure">Structure</a>
+      <a href="https://github.com/" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Open source · MIT licensed</p>
+        <h1>A clean, professional starting point for your next repository.</h1>
+        <p class="lede">
+          No build step, no framework lock-in. Semantic HTML, a small design system,
+          and a README that actually explains itself — ready to rename and ship.
+        </p>
+        <div class="hero-actions">
+          <a href="#quickstart" class="btn btn-primary">Get started</a>
+          <a href="#structure" class="btn btn-ghost">Browse the structure</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>0</strong>dependencies</div>
+          <div><strong>&lt;5s</strong>to first run</div>
+          <div><strong>MIT</strong>license</div>
+        </div>
+      </div>
+
+      <div class="code-card">
+        <div class="code-card-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <pre><span class="cmt"># clone and run locally</span>
+git clone <span class="str">https://github.com/you/project-name.git</span>
+cd project-name
+npx serve .</pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Built to be read, not just run</h2>
+        <p>Every file is short enough to open and understand in one sitting.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="mark">01</div>
+          <h3>Zero build step</h3>
+          <p>Plain HTML, CSS, and JS. Open <code>index.html</code> directly or serve it — nothing to compile.</p>
+        </div>
+        <div class="feature">
+          <div class="mark">02</div>
+          <h3>Accessible by default</h3>
+          <p>Semantic landmarks, visible focus states, and reduced-motion support out of the box.</p>
+        </div>
+        <div class="feature">
+          <div class="mark">03</div>
+          <h3>Documented for handoff</h3>
+          <p>A README with setup, structure, and contribution steps a new teammate can follow unaided.</p>
+        </div>
+        <div class="feature">
+          <div class="mark">04</div>
+          <h3>Light and dark aware</h3>
+          <p>Colors are tokens, so the page adapts to the visitor's system theme automatically.</p>
+        </div>
+        <div class="feature">
+          <div class="mark">05</div>
+          <h3>Responsive layout</h3>
+          <p>Fluid type and a grid that collapses cleanly from desktop down to a single column.</p>
+        </div>
+        <div class="feature">
+          <div class="mark">06</div>
+          <h3>CI-ready</h3>
+          <p>A GitHub Actions workflow for link-checking and HTML validation is included, ready to enable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quickstart">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Quick start</h2>
+        <p>Three steps from clone to a running page.</p>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <div></div>
+          <div>
+            <h4>Clone the repository</h4>
+            <p>Grab the code and move into the project folder.</p>
+            <pre>git clone https://github.com/you/project-name.git
+cd project-name</pre>
+          </div>
+        </li>
+        <li class="step">
+          <div></div>
+          <div>
+            <h4>Serve it locally</h4>
+            <p>Any static server works — here's a dependency-free option.</p>
+            <pre>npx serve .
+# or: python3 -m http.server 8000</pre>
+          </div>
+        </li>
+        <li class="step">
+          <div></div>
+          <div>
+            <h4>Make it yours</h4>
+            <p>Edit the content in <code>index.html</code>, adjust tokens in <code>assets/css/style.css</code>, and update the README.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="structure">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Project structure</h2>
+        <p>Everything lives where you'd expect it to.</p>
+      </div>
+      <div class="tree">project-name/
+├── index.html
+├── assets/
+│   ├── css/style.css
+│   ├── js/main.js
+│   └── img/
+├── docs/
+├── .github/workflows/ci.yml
+├── LICENSE
+├── .gitignore
+└── README.md</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Built with</h2>
+        <p>Deliberately small footprint.</p>
+      </div>
+      <div class="stack-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Vanilla JavaScript</span>
+        <span>GitHub Actions</span>
+        <span>No framework required</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Project Name. Released under the MIT License.</p>
+    <div class="foot-links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="./README.md">README</a>
+      <a href="./LICENSE">License</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
